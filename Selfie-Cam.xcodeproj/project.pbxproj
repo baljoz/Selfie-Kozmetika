@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070DF5ED1EDFED28001C91BB /* SelectyBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF5EC1EDFED28001C91BB /* SelectyBodyViewController.swift */; };
+		07C009DA1EDEDB8C00EE8038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C009D91EDEDB8C00EE8038 /* AppDelegate.swift */; };
+		07C009DC1EDEDB8C00EE8038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C009DB1EDEDB8C00EE8038 /* ViewController.swift */; };
+		07C009DF1EDEDB8C00EE8038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C009DD1EDEDB8C00EE8038 /* Main.storyboard */; };
+		07C009E11EDEDB8C00EE8038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C009E01EDEDB8C00EE8038 /* Assets.xcassets */; };
+		07C009E41EDEDB8C00EE8038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C009E21EDEDB8C00EE8038 /* LaunchScreen.storyboard */; };
+		07C009EF1EDEDB8D00EE8038 /* Selfie_CamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C009EE1EDEDB8D00EE8038 /* Selfie_CamTests.swift */; };
+		07C009FA1EDEDB8D00EE8038 /* Selfie_CamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C009F91EDEDB8D00EE8038 /* Selfie_CamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07C009EB1EDEDB8C00EE8038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07C009CE1EDEDB8C00EE8038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07C009D51EDEDB8C00EE8038;
+			remoteInfo = "Selfie-Cam";
+		};
+		07C009F61EDEDB8D00EE8038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07C009CE1EDEDB8C00EE8038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07C009D51EDEDB8C00EE8038;
+			remoteInfo = "Selfie-Cam";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070DF5EC1EDFED28001C91BB /* SelectyBodyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectyBodyViewController.swift; sourceTree = "<group>"; };
+		07C009D61EDEDB8C00EE8038 /* Selfie-Cam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Selfie-Cam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C009D91EDEDB8C00EE8038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07C009DB1EDEDB8C00EE8038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07C009DE1EDEDB8C00EE8038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07C009E01EDEDB8C00EE8038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07C009E31EDEDB8C00EE8038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07C009E51EDEDB8C00EE8038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C009EA1EDEDB8C00EE8038 /* Selfie-CamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Selfie-CamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C009EE1EDEDB8D00EE8038 /* Selfie_CamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selfie_CamTests.swift; sourceTree = "<group>"; };
+		07C009F01EDEDB8D00EE8038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C009F51EDEDB8D00EE8038 /* Selfie-CamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Selfie-CamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C009F91EDEDB8D00EE8038 /* Selfie_CamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selfie_CamUITests.swift; sourceTree = "<group>"; };
+		07C009FB1EDEDB8D00EE8038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07C009D31EDEDB8C00EE8038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C009E71EDEDB8C00EE8038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C009F21EDEDB8D00EE8038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07C009CD1EDEDB8C00EE8038 = {
+			isa = PBXGroup;
+			children = (
+				07C009D81EDEDB8C00EE8038 /* Selfie-Cam */,
+				07C009ED1EDEDB8D00EE8038 /* Selfie-CamTests */,
+				07C009F81EDEDB8D00EE8038 /* Selfie-CamUITests */,
+				07C009D71EDEDB8C00EE8038 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07C009D71EDEDB8C00EE8038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07C009D61EDEDB8C00EE8038 /* Selfie-Cam.app */,
+				07C009EA1EDEDB8C00EE8038 /* Selfie-CamTests.xctest */,
+				07C009F51EDEDB8D00EE8038 /* Selfie-CamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07C009D81EDEDB8C00EE8038 /* Selfie-Cam */ = {
+			isa = PBXGroup;
+			children = (
+				07C009D91EDEDB8C00EE8038 /* AppDelegate.swift */,
+				07C009DB1EDEDB8C00EE8038 /* ViewController.swift */,
+				07C009DD1EDEDB8C00EE8038 /* Main.storyboard */,
+				07C009E01EDEDB8C00EE8038 /* Assets.xcassets */,
+				07C009E21EDEDB8C00EE8038 /* LaunchScreen.storyboard */,
+				07C009E51EDEDB8C00EE8038 /* Info.plist */,
+				070DF5EC1EDFED28001C91BB /* SelectyBodyViewController.swift */,
+			);
+			path = "Selfie-Cam";
+			sourceTree = "<group>";
+		};
+		07C009ED1EDEDB8D00EE8038 /* Selfie-CamTests */ = {
+			isa = PBXGroup;
+			children = (
+				07C009EE1EDEDB8D00EE8038 /* Selfie_CamTests.swift */,
+				07C009F01EDEDB8D00EE8038 /* Info.plist */,
+			);
+			path = "Selfie-CamTests";
+			sourceTree = "<group>";
+		};
+		07C009F81EDEDB8D00EE8038 /* Selfie-CamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07C009F91EDEDB8D00EE8038 /* Selfie_CamUITests.swift */,
+				07C009FB1EDEDB8D00EE8038 /* Info.plist */,
+			);
+			path = "Selfie-CamUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07C009D51EDEDB8C00EE8038 /* Selfie-Cam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C009FE1EDEDB8D00EE8038 /* Build configuration list for PBXNativeTarget "Selfie-Cam" */;
+			buildPhases = (
+				07C009D21EDEDB8C00EE8038 /* Sources */,
+				07C009D31EDEDB8C00EE8038 /* Frameworks */,
+				07C009D41EDEDB8C00EE8038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Selfie-Cam";
+			productName = "Selfie-Cam";
+			productReference = 07C009D61EDEDB8C00EE8038 /* Selfie-Cam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07C009E91EDEDB8C00EE8038 /* Selfie-CamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C00A011EDEDB8D00EE8038 /* Build configuration list for PBXNativeTarget "Selfie-CamTests" */;
+			buildPhases = (
+				07C009E61EDEDB8C00EE8038 /* Sources */,
+				07C009E71EDEDB8C00EE8038 /* Frameworks */,
+				07C009E81EDEDB8C00EE8038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07C009EC1EDEDB8C00EE8038 /* PBXTargetDependency */,
+			);
+			name = "Selfie-CamTests";
+			productName = "Selfie-CamTests";
+			productReference = 07C009EA1EDEDB8C00EE8038 /* Selfie-CamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07C009F41EDEDB8D00EE8038 /* Selfie-CamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C00A041EDEDB8D00EE8038 /* Build configuration list for PBXNativeTarget "Selfie-CamUITests" */;
+			buildPhases = (
+				07C009F11EDEDB8D00EE8038 /* Sources */,
+				07C009F21EDEDB8D00EE8038 /* Frameworks */,
+				07C009F31EDEDB8D00EE8038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07C009F71EDEDB8D00EE8038 /* PBXTargetDependency */,
+			);
+			name = "Selfie-CamUITests";
+			productName = "Selfie-CamUITests";
+			productReference = 07C009F51EDEDB8D00EE8038 /* Selfie-CamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07C009CE1EDEDB8C00EE8038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Milos Stosic";
+				TargetAttributes = {
+					07C009D51EDEDB8C00EE8038 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = CE8AYP9GM3;
+						ProvisioningStyle = Manual;
+					};
+					07C009E91EDEDB8C00EE8038 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07C009D51EDEDB8C00EE8038;
+					};
+					07C009F41EDEDB8D00EE8038 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07C009D51EDEDB8C00EE8038;
+					};
+				};
+			};
+			buildConfigurationList = 07C009D11EDEDB8C00EE8038 /* Build configuration list for PBXProject "Selfie-Cam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07C009CD1EDEDB8C00EE8038;
+			productRefGroup = 07C009D71EDEDB8C00EE8038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07C009D51EDEDB8C00EE8038 /* Selfie-Cam */,
+				07C009E91EDEDB8C00EE8038 /* Selfie-CamTests */,
+				07C009F41EDEDB8D00EE8038 /* Selfie-CamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07C009D41EDEDB8C00EE8038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C009E41EDEDB8C00EE8038 /* LaunchScreen.storyboard in Resources */,
+				07C009E11EDEDB8C00EE8038 /* Assets.xcassets in Resources */,
+				07C009DF1EDEDB8C00EE8038 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C009E81EDEDB8C00EE8038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C009F31EDEDB8D00EE8038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07C009D21EDEDB8C00EE8038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C009DC1EDEDB8C00EE8038 /* ViewController.swift in Sources */,
+				070DF5ED1EDFED28001C91BB /* SelectyBodyViewController.swift in Sources */,
+				07C009DA1EDEDB8C00EE8038 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C009E61EDEDB8C00EE8038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C009EF1EDEDB8D00EE8038 /* Selfie_CamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C009F11EDEDB8D00EE8038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C009FA1EDEDB8D00EE8038 /* Selfie_CamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07C009EC1EDEDB8C00EE8038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07C009D51EDEDB8C00EE8038 /* Selfie-Cam */;
+			targetProxy = 07C009EB1EDEDB8C00EE8038 /* PBXContainerItemProxy */;
+		};
+		07C009F71EDEDB8D00EE8038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07C009D51EDEDB8C00EE8038 /* Selfie-Cam */;
+			targetProxy = 07C009F61EDEDB8D00EE8038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07C009DD1EDEDB8C00EE8038 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C009DE1EDEDB8C00EE8038 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07C009E21EDEDB8C00EE8038 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C009E31EDEDB8C00EE8038 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07C009FC1EDEDB8D00EE8038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07C009FD1EDEDB8D00EE8038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07C009FF1EDEDB8D00EE8038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CE8AYP9GM3;
+				INFOPLIST_FILE = "Selfie-Cam/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamecredits.Selfie-Cam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "75aeba5e-11cb-4743-96d5-46a474148f2f";
+				PROVISIONING_PROFILE_SPECIFIER = iOSDevelopment;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		07C00A001EDEDB8D00EE8038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CE8AYP9GM3;
+				INFOPLIST_FILE = "Selfie-Cam/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamecredits.Selfie-Cam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "75aeba5e-11cb-4743-96d5-46a474148f2f";
+				PROVISIONING_PROFILE_SPECIFIER = iOSDevelopment;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		07C00A021EDEDB8D00EE8038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Selfie-CamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamecredits.Selfie-CamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Selfie-Cam.app/Selfie-Cam";
+			};
+			name = Debug;
+		};
+		07C00A031EDEDB8D00EE8038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Selfie-CamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamecredits.Selfie-CamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Selfie-Cam.app/Selfie-Cam";
+			};
+			name = Release;
+		};
+		07C00A051EDEDB8D00EE8038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Selfie-CamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamecredits.Selfie-CamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Selfie-Cam";
+			};
+			name = Debug;
+		};
+		07C00A061EDEDB8D00EE8038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Selfie-CamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamecredits.Selfie-CamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Selfie-Cam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C009D11EDEDB8C00EE8038 /* Build configuration list for PBXProject "Selfie-Cam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C009FC1EDEDB8D00EE8038 /* Debug */,
+				07C009FD1EDEDB8D00EE8038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C009FE1EDEDB8D00EE8038 /* Build configuration list for PBXNativeTarget "Selfie-Cam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C009FF1EDEDB8D00EE8038 /* Debug */,
+				07C00A001EDEDB8D00EE8038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C00A011EDEDB8D00EE8038 /* Build configuration list for PBXNativeTarget "Selfie-CamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C00A021EDEDB8D00EE8038 /* Debug */,
+				07C00A031EDEDB8D00EE8038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C00A041EDEDB8D00EE8038 /* Build configuration list for PBXNativeTarget "Selfie-CamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C00A051EDEDB8D00EE8038 /* Debug */,
+				07C00A061EDEDB8D00EE8038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07C009CE1EDEDB8C00EE8038 /* Project object */;
+}
