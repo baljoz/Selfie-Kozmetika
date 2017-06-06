@@ -20,9 +20,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OUM-bF-efj">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
-                            </imageView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9zX-QL-xdP">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                 <items>
@@ -40,16 +37,27 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OUM-bF-efj">
+                                <rect key="frame" x="43" y="208" width="289" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="CVR-02-6LM" appends="YES" id="JmX-45-dtO"/>
+                                    <outletCollection property="gestureRecognizers" destination="CVR-02-6LM" appends="YES" id="FBc-aY-QMg"/>
+                                    <outletCollection property="gestureRecognizers" destination="CVR-02-6LM" appends="YES" id="vXm-wg-239"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93L-gb-Mc3">
+                                <rect key="frame" x="29" y="596" width="316" height="29"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="9zX-QL-xdP" secondAttribute="trailing" id="3jP-Qt-kk4"/>
-                            <constraint firstItem="9zX-QL-xdP" firstAttribute="top" secondItem="CYU-s0-YR6" secondAttribute="top" id="OqG-P7-V3B"/>
-                            <constraint firstItem="YGw-Jc-qiM" firstAttribute="top" secondItem="OUM-bF-efj" secondAttribute="bottom" id="SbZ-HC-qD5"/>
-                            <constraint firstItem="OUM-bF-efj" firstAttribute="top" secondItem="19f-Iu-QnG" secondAttribute="bottom" constant="24" id="UwA-fZ-OHZ"/>
-                            <constraint firstAttribute="trailing" secondItem="OUM-bF-efj" secondAttribute="trailing" id="YeR-U8-MQ2"/>
-                            <constraint firstItem="OUM-bF-efj" firstAttribute="leading" secondItem="CYU-s0-YR6" secondAttribute="leading" id="ipS-W4-Rda"/>
-                            <constraint firstItem="9zX-QL-xdP" firstAttribute="leading" secondItem="CYU-s0-YR6" secondAttribute="leading" id="mO4-vX-VtT"/>
+                            <constraint firstAttribute="trailing" secondItem="9zX-QL-xdP" secondAttribute="trailing" id="GFJ-Og-j49"/>
+                            <constraint firstItem="9zX-QL-xdP" firstAttribute="leading" secondItem="CYU-s0-YR6" secondAttribute="leading" id="Ub0-bl-H1X"/>
+                            <constraint firstItem="9zX-QL-xdP" firstAttribute="top" secondItem="CYU-s0-YR6" secondAttribute="top" id="cI2-bE-U9V"/>
+                            <constraint firstItem="93L-gb-Mc3" firstAttribute="centerY" secondItem="CYU-s0-YR6" secondAttribute="centerY" id="mhK-nd-68z"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="RWQ-c3-tlG">
@@ -57,9 +65,11 @@
                     </navigationItem>
                     <connections>
                         <outlet property="image" destination="OUM-bF-efj" id="HfN-0e-6He"/>
+                        <outlet property="testdugme" destination="93L-gb-Mc3" id="DWK-fP-Fj7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KBn-6B-Cws" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="CVR-02-6LM"/>
             </objects>
             <point key="canvasLocation" x="-444" y="765.96701649175418"/>
         </scene>

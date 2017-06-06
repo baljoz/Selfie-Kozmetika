@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		070DF5ED1EDFED28001C91BB /* SelectyBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF5EC1EDFED28001C91BB /* SelectyBodyViewController.swift */; };
+		070DF5EF1EE0217C001C91BB /* PixelExtrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF5EE1EE0217C001C91BB /* PixelExtrator.swift */; };
 		07C009DA1EDEDB8C00EE8038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C009D91EDEDB8C00EE8038 /* AppDelegate.swift */; };
 		07C009DC1EDEDB8C00EE8038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C009DB1EDEDB8C00EE8038 /* ViewController.swift */; };
 		07C009DF1EDEDB8C00EE8038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C009DD1EDEDB8C00EE8038 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		070DF5EC1EDFED28001C91BB /* SelectyBodyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectyBodyViewController.swift; sourceTree = "<group>"; };
+		070DF5EE1EE0217C001C91BB /* PixelExtrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixelExtrator.swift; sourceTree = "<group>"; };
 		07C009D61EDEDB8C00EE8038 /* Selfie-Cam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Selfie-Cam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C009D91EDEDB8C00EE8038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07C009DB1EDEDB8C00EE8038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				07C009E21EDEDB8C00EE8038 /* LaunchScreen.storyboard */,
 				07C009E51EDEDB8C00EE8038 /* Info.plist */,
 				070DF5EC1EDFED28001C91BB /* SelectyBodyViewController.swift */,
+				070DF5EE1EE0217C001C91BB /* PixelExtrator.swift */,
 			);
 			path = "Selfie-Cam";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07C009DC1EDEDB8C00EE8038 /* ViewController.swift in Sources */,
+				070DF5EF1EE0217C001C91BB /* PixelExtrator.swift in Sources */,
 				070DF5ED1EDFED28001C91BB /* SelectyBodyViewController.swift in Sources */,
 				07C009DA1EDEDB8C00EE8038 /* AppDelegate.swift in Sources */,
 			);
